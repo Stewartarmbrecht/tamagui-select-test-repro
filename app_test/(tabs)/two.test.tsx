@@ -28,9 +28,9 @@ describe('_layout', () => {
     expect(welcomeMessage).toBeTruthy();
   }, 60000 /** set to 60s because ci timing out. */);
   it('should default to Apple selected', async () => {
-    // How do you write this test?
+    throw new Error("How do you write this test?");
   }, 60000 /** set to 60s because ci timing out. */);
   it('should allow you to select Pear', async () => {
-    // How do you write this test?
+    throw new Error("How do you write this test?");
   }, 60000 /** set to 60s because ci timing out. */);
 });
